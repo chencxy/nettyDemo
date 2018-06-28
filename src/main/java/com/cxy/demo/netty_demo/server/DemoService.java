@@ -7,7 +7,7 @@ import javax.ws.rs.core.MediaType;
 
 import org.springframework.stereotype.Controller;
 
-@Path("/protected")
+@Path("")
 @Produces(MediaType.APPLICATION_JSON)
 @Controller
 public class DemoService {
